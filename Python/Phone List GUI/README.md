@@ -2,7 +2,7 @@
 ***
 This small python app allows you to view, add, update, and delete contacts and their associated phone numbers.
 
-![alt text]("https://github.com/adabat64/Portfolio/Python/Phone List GUI/Screenshot.png")
+![ScreenShot]("https://raw.githubusercontent.com/adabat64/Portfolio/Python/Phone List GUI/Screenshot.png")
 
 ##### Instructions
 Pre-reqs: Python 3+
@@ -20,14 +20,13 @@ To save and load a save:
 * Press save
 * Open tkPhone.py in an editor, and scroll to the bottom.
 * Comment out
-  ```python
-  #phonelist = [
-  #['Doe, John', '343-4349'],
-  #['Smith, Robert', '689-1234'],
-  #]
+  ``` phonelist = [
+  ['Doe, John', '343-4349'],
+  ['Smith, Robert', '689-1234'],
+  ]
  ```
 * Uncomment
-  ```python
-  phonelist = tksave.load()
+  ```
+  #phonelist = tksave.load()
   ```
 * Save, and start program.
