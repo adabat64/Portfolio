@@ -2,7 +2,7 @@
 ***
 This small python app allows you to view, add, update, and delete contacts and their associated phone numbers.
 
-![ScreenShot]("Screenshot.png")
+![ScreenShot]("/Screenshot.png")
 
 ##### Instructions
 Pre-reqs: Python 3+
@@ -28,6 +28,6 @@ To save and load a save:
 
 * Uncomment
 
-  #phonelist = tksave.load()
+  phonelist = tksave.load()
 
 * Save, and start program.
