@@ -4,7 +4,7 @@
 This repository houses my portfolio. In here you can find different projects I have completed over the last year.
 Most of these projects were completed through the [Tech Academy](https://www.learncodinganywhere.com) in Portland OR.
 
-Check out my [LinkedIn](https://www.linkedin.com/adabat) and my [website](https://adabat64.github.io) to learn more about me.
+Check out my [LinkedIn](www.linkedin.com/in/adabat) and my [website](https://adabat64.github.io) to learn more about me.
 
 #### HTML & CSS
 * [HTML & CSS  Examples](./HTML-CSS)
@@ -23,8 +23,8 @@ Check out my [LinkedIn](https://www.linkedin.com/adabat) and my [website](https:
 * [Datetime Drill](./Python/Datetime-Drill)
 
 #### C#  
-* [C# Examples](./C-Sharp)
-* [File Transfer Drill](./C-Sharp/File-Transfer-Drill)
+* [C# Examples](./C#)
+* [File Transfer Drill](./C#/File-Transfer-Drill)
 
 #### Team Projects
 * Live-Project coming after C# Course
