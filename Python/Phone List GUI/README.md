@@ -2,7 +2,7 @@
 ***
 This small python app allows you to view, add, update, and delete contacts and their associated phone numbers.
 
-![alt text]("./Python/Phone\ List\ GUI/Screenshot.png")
+![alt text]("Portfolio/Python/Phone List GUI/Screenshot.png")
 
 ##### Instructions
 Pre-reqs: Python 3+
