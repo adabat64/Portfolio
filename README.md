@@ -8,23 +8,18 @@ Check out my [LinkedIn](www.linkedin.com/in/adabat64) and my [website](https://a
 
 #### HTML & CSS
 * [HTML & CSS  Projects](./HTML-CSS)
-* [CSS Login Drill](./HTML-CSS/CSS-Login-Drill)
 
 #### Database & SQL
 * [Database & SQL Projects](./Database-SQL)
-* [City Library Drill](./Database-SQL/City-Library-Drill)
 
 #### JavaScript
 * [JavaScript Projects](./JavaScript)
-* [Login Script Drill](./JavaScript/Login-Script-Drill)
 
 #### Python
 * [Python Projects](./Python)
-* [Datetime Drill](./Python/Datetime-Drill)
 
 #### C#  
-* [C# Projects](./C#)
-* [File Transfer Drill](./C#/File-Transfer-Drill)
+* [C# Projects](./C%23)
 
 #### Team Projects
 * Live-Project coming after C# Course
