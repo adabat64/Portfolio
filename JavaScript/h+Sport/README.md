@@ -6,13 +6,7 @@ Starting from a blank JavaScript file, the point of this tutorial is to collect 
 Js I learned and wrote:
 * Adding event listeners on DOM load, disabling and activating buttons based on user input, adding alerts for missing information.
 
-##### Navigation
 
 ##### Instructions
-Pre-reqs: Python3 and Phoenix
-
-* Download the folder and cd into it.
-* Start Python3
-* Type exec(open("BDGUI.py").read())
-
-* ##### To quit the app use cmd+Q. ######
+* Download the h+Sport folder.
+* Open a browser and navigate to the index.html
