@@ -18,7 +18,7 @@ This console application saves different blogs and posts in a database.
 Main Menu:  
 Press 1 to view the Blog Database
 Press 2 to add a new Blog
-Press 3 to write a new Blog Post
+Press 3 to delete a Blog
 Press Q to quit");
                     string choice = Console.ReadLine();
 
@@ -60,7 +60,14 @@ Press Q to quit");
                         var count = db.SaveChanges();
                         Console.WriteLine("{0} records saved to database: ", count);
                     }*/
-
+                    else if(choice == "3")
+                    {
+                        Console.WriteLine("Enter the ID of the Blog you wish to delete: ");
+                        string blog_id = Console.ReadLine();
+                        db.Blogs.delete(SQLite.Blog {ID = $"{blog_id}"});
+                        var count = db.SaveChanges();
+                        Console.WriteLine("{0} records saved to database: ", count);
+                    }
                     else{
                         menu = false;
                     }
