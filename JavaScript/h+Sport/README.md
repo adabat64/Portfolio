@@ -5,6 +5,7 @@ Starting from a blank JavaScript file, the point of this tutorial is to collect 
 
 Js I learned and wrote:
 * Adding event listeners on DOM load, disabling and activating buttons based on user input, adding alerts for missing information.
+* Adding a price calculation estimate based on different items quantities, State tax, and shipping costs, and using innerHTML to write calculation details, in an e-commerce context.
 
 ![Screenshot](https://github.com/adabat64/Portfolio/blob/master/JavaScript/h%2BSport/img/hsport-screenshot.png)
 
