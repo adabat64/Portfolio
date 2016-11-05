@@ -33,13 +33,15 @@
     var itemBball = parseInt(document.getElementById('txt-q-bball').value, 10) || 0;
     var itemJersey = parseInt(document.getElementById('txt-q-jersey').value, 10) || 0;
     var itemPower = parseInt(document.getElementById('txt-q-power').value, 10) || 0;
+    var itemWater = parseInt(document.getElementById('txt-q-water').value, 10) || 0;
+
     var shippingState = state.value;
 
     //get radio btn value from CSS[], default to empty string
     var shippingMethod = document.querySelector('[name = r_method]:checked').value || "";
 
     //create vars for calculation
-    var totalQty = itemBball + itemJersey + itemPower,
+    var totalQty = itemBball + itemJersey + itemPower + itemWater,
         shippingCostPer,
         shippingCost,
         taxFactor = 1,
@@ -49,6 +51,8 @@
     //taking tax into account
     if(shippingState === 'CA'){
       taxFactor = 1.075;
+    } else if (shippingState === 'WA') {
+      taxFactor = 1.065;
     }
 
     //taking shipping costs into account
@@ -66,7 +70,7 @@
         //Calculations
         shippingCost = shippingCostPer * totalQty;
 
-        priceEstimate = (90 * itemBball) + (25 * itemJersey) + (30 * itemPower);
+        priceEstimate = (90 * itemBball) + (25 * itemJersey) + (30 * itemPower)+ (4 * itemWater);
         estimate = '$' + ((priceEstimate * taxFactor) + shippingCost).toFixed(2);
         document.getElementById('txt-estimate').value = estimate;
 
