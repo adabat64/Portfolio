@@ -3,7 +3,7 @@
 This small python app allows you to view, add, update, and delete contacts and their associated phone numbers.
 
 
-![Widget Image](/Screenshot.png?raw=true "Phone Contact List GUI")
+![Screenshot](https://github.com/adabat64/Portfolio/blob/master/Python/img/Phone_Listscreenshot.png)
 
 ##### Instructions
 Pre-reqs: Python 3+, Mac only, tkinter
