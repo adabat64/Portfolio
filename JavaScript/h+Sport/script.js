@@ -1,3 +1,14 @@
+//Google Maps
+  var GMapApiKey = 'AIzaSyCBtxBDjh_mDGNVazSW3XA70ePp52-_-rk';
+  var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('hplus-map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+
 (function(){
   "use strict";
 
@@ -82,5 +93,6 @@
         results.innerHTML += 'Tax: '+ ((taxFactor -1)*100).toFixed(2)+'% ('+shippingState+')';
 
   }
+
 
 })();
