@@ -1,10 +1,34 @@
 //Google Maps
   var GMapApiKey = 'AIzaSyCBtxBDjh_mDGNVazSW3XA70ePp52-_-rk';
   var map;
+  laContent1 = "H+Sport HeadQuarters"
+  laContent2 = "Our new location"
       function initMap() {
         map = new google.maps.Map(document.getElementById('hplus-map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+          center: {lat: 34.102, lng: -118.326},
+          zoom: 12
+        });
+        var infowindow1 = new google.maps.InfoWindow({
+          content: laContent1
+        });
+        var infowindow2 = new google.maps.InfoWindow({
+          content: laContent2
+        });
+        var marker1 = new google.maps.Marker({
+          position : {lat: 34.102, lng: -118.326},
+          map: map,
+          title: 'H+ Sport'
+        });
+        var marker2 = new google.maps.Marker({
+          position: {lat: 34.0724, lng:-118.2479},
+          map: map,
+          title: 'New location'
+        });
+        marker1.addListener('click', function(){
+          infowindow1.open(map, marker1);
+        });
+        marker2.addListener('click', function(){
+          infowindow2.open(map, marker2)
         });
       }
 
